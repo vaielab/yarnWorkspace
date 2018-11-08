@@ -1,0 +1,1 @@
+export const errorMsgTest = () => 'From Shared/errorMsg/test'

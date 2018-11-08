@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "paths": {
+        "@errorMsg/*": [ "@project1/shared/src/errorMsg/*" ],
+        "@graphQL/*": [ "@project1/shared/src/GraphQL/*" ]
+    },
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "references": [
+    {"path": "../shared"}
+  ]
+}
+
